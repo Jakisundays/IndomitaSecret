@@ -1,6 +1,10 @@
 { "homepage": "http://Jakisundays.github.io/clubIndomita",
   "name": "club-indomita",
   "version": "0.1.0",
+  "engines": {
+    "node": "v16.14.2",
+    "npm": "8.5.0"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
