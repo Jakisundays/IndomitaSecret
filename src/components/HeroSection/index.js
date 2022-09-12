@@ -1,6 +1,6 @@
 import React from 'react';
 import {HeroContainer, HeroContent, HeroH1, HeroH2, HeroP} from './HeroElements'
-import LoginBg from '/Users/jacobdominguez/Documents/club-indomita/src/components/images/bg01.gif'
+import LoginBg from '/Users/jacobdominguez/Documents/club-indomita/src/images/bg01.gif'
 
 const HeroSection = () => {
   return (

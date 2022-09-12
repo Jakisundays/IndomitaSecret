@@ -2,7 +2,7 @@ import React,  { useRef, useEffect, useState } from 'react'
 import { LoginContainer, LoginForm, LoginInput, LoginWrapper } from './LoginElements'
 import { AiOutlineLock } from "react-icons/ai";
 import { useNavigate } from 'react-router-dom';
-import LoginBg from '/Users/jacobdominguez/Documents/club-indomita/src/components/images/pass3.gif'
+import LoginBg from '/Users/jacobdominguez/Documents/club-indomita/src/images/pass3.gif'
 
 
 const LoginSection = () => {
