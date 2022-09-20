@@ -5,7 +5,7 @@ const ReglasSection = ({lightBg, id, topLine, lightText, headLine, darkText, reg
   return (
     <>
     <ReglasContainer lightBg={lightBg} id={id}>
-        <ReglasWrapper>
+        <ReglasWrapper id='reglas'>
             <ReglasRow>
                 <TextWrapper>
                     <TopLine>{topLine}</TopLine>

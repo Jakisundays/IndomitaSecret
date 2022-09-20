@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import {AiOutlineDown} from 'react-icons/ai'
+import { Link } from 'react-scroll'
 
 export const HeroContainer = styled.div`
     background= #0c0c0c;
@@ -91,6 +92,9 @@ export const HeroP = styled.p`
 export const Flecha = styled(AiOutlineDown)`
     color: white;
     font-size: 40px;
+`
+
+export const Scroller = styled(Link)`
     position: absolute;
-    bottom: 20px;
+    bottom: 25px;
 `

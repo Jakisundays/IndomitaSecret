@@ -1,5 +1,5 @@
 import React from 'react';
-import {Flecha, HeroContainer, HeroContent, HeroH1, HeroH2, HeroP} from './HeroElements'
+import {Scroller, Flecha, HeroContainer, HeroContent, HeroH1, HeroH2, HeroP} from './HeroElements'
 import LoginBg from '/Users/jacobdominguez/Documents/club-indomita/src/images/bg01.gif'
 
 const HeroSection = () => {
@@ -11,7 +11,9 @@ const HeroSection = () => {
           <HeroH2>Bienvenido a: </HeroH2>
           <HeroP>Indómita Secret Society</HeroP>
         </HeroContent>
-          <Flecha />
+          <Scroller to='reglas' spy={true} smooth={true} offset={-40} duration={500} >
+            <Flecha />
+          </Scroller>
     </HeroContainer>
   )
 }
