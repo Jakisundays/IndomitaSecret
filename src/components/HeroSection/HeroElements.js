@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import {AiOutlineDown} from 'react-icons/ai'
 
 export const HeroContainer = styled.div`
     background= #0c0c0c;
@@ -86,4 +87,10 @@ export const HeroP = styled.p`
     @media screen and (max-width: 480px){
         font-size: 18px;
     }
+`
+export const Flecha = styled(AiOutlineDown)`
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    bottom: 20px;
 `
