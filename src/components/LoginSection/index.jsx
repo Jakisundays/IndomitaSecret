@@ -15,7 +15,7 @@ const LoginSection = () => {
 
   useEffect(() => {
     if (pass.toLowerCase() === "libertad") {
-      navigate("/secretsociety/access");
+      navigate("/access");
     }
   }, [pass, navigate]);
 
