@@ -1,19 +1,15 @@
-import './App.css';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import Home from './components/pages';
-import Acertijo from './components/pages/acertijo';
-
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Home from "./components/pages";
+import LoginSection from "./components/LoginSection";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route index path='/secretsociety' element={<Acertijo />} />
-        <Route path='/home' element={<Home />} />
-      </Routes>
-    </BrowserRouter>
+    <Routes>
+      <Route index path="/" element={<LoginSection />} />
+      <Route path="/access" element={<Home />} />
+    </Routes>
   );
 }
-
 
 export default App;
