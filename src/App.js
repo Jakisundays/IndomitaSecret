@@ -6,7 +6,7 @@ import LoginSection from "./components/LoginSection";
 function App() {
   return (
     <Routes>
-      <Route index path="/secretsociety" element={<LoginSection />} />
+      <Route path="/secretsociety" element={<LoginSection />} />
       <Route path="/secretsociety/access" element={<Home />} />
     </Routes>
   );
