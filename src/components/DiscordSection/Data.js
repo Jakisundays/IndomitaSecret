@@ -1,4 +1,4 @@
 export const DiscObj = {
-  DiscTitle: "Haz click aquí para unirte, si te atreves.",
+  DiscTitle: "Click here, if you dare.",
   DiscordLink: "https://discord.gg/ArrYpc9Cjw",
 };

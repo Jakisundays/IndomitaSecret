@@ -14,7 +14,7 @@ const LoginSection = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (pass.toLowerCase() === "libertad") {
+    if (pass.toLowerCase() === "freedom") {
       navigate("/access");
     }
   }, [pass, navigate]);

@@ -14,8 +14,10 @@ const HeroSection = () => {
   return (
     <HeroContainer style={{ backgroundImage: `url(${LoginBg}) ` }}>
       <HeroContent>
-        <HeroH1>Te estabamos esperando.</HeroH1>
-        <HeroH2>Bienvenido a: </HeroH2>
+        <HeroH1>We were waiting for you.</HeroH1>
+        {/* <HeroH1>Te estabamos esperando.</HeroH1> */}
+        <HeroH2>Welcome to: </HeroH2>
+        {/* <HeroH2>Bienvenido a: </HeroH2> */}
         <HeroP>Indómita Secret Society</HeroP>
       </HeroContent>
       <Scroller
